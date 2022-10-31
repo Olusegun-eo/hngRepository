@@ -13,7 +13,7 @@ import java.util.UUID;
 public class StudentController {
 
     @Value("${app.name: Create Get Api}")
-    private String appName;
+
 
     @GetMapping("/get")
     public Student getStudentDetails() {
