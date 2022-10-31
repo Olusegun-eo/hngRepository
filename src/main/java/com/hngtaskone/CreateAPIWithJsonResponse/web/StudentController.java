@@ -14,7 +14,6 @@ public class StudentController {
 
     @Value("${app.name: Create Get Api}")
 
-
     @GetMapping("/get")
     public Student getStudentDetails() {
 
